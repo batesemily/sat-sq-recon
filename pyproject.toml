@@ -25,7 +25,7 @@ trimesh = "^4.0.4"
 cython = "^3.0.8"
 
 [build-system]
-requires = ["poetry-core"]
+requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 
