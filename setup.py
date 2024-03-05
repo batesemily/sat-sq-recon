@@ -31,7 +31,7 @@ def setup_package():
 if __name__ == "__main__":
     # setup_package()
     setup(
-        name="sat_sq_recon",
+        name="satsq",
         version="1",
         packages=find_packages(where="."),
         package_dir={"": "core/"}
