@@ -3,7 +3,7 @@ Copyright (c) 2023 SLAB Group
 Author: Tae Ha "Jeff" Park (tpark94@stanford.edu)
 '''
 
-from distutils.core import setup, find-
+from distutils.core import setup, find_packages
 from Cython.Build import cythonize
 from distutils.extension import Extension
 
