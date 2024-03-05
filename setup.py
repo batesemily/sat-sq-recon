@@ -30,9 +30,9 @@ def setup_package():
 
 if __name__ == "__main__":
     setup_package()
-    setup(
-        name="sat_sq_recon",
-        version="1",
-        packages="sat_sq_recon",
-        package_dir={"sat_sq_recon": "./core/"}
-    )
+    # setup(
+    #     name="sat_sq_recon",
+    #     version="1",
+    #     packages="sat_sq_recon",
+    #     package_dir={"sat_sq_recon": "./core/"}
+    # )
