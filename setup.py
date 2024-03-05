@@ -33,5 +33,5 @@ if __name__ == "__main__":
         name='sat_sq_recon',
         version='1',
         packages='sat_sq_recon',
-        package_dir={'sat_sq_recon': '.\core\'}
+        package_dir={'sat_sq_recon': './core/'}
     )
