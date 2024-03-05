@@ -33,6 +33,6 @@ if __name__ == "__main__":
     setup(
         name="sat_sq_recon",
         version="1",
-        packages="sat_sq_recon",
+        packages=find_packages(where="."),
         package_dir={"": "core/"}
     )
