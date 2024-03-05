@@ -3,7 +3,7 @@ Copyright (c) 2023 SLAB Group
 Author: Tae Ha "Jeff" Park (tpark94@stanford.edu)
 '''
 
-from distutils.core import setup
+from distutils.core import setup, find-
 from Cython.Build import cythonize
 from distutils.extension import Extension
 
@@ -30,8 +30,8 @@ def setup_package():
 if __name__ == "__main__":
     setup_package()
     setup(
-        name='sat_sq_recon',
-        version='1',
-        packages='sat_sq_recon',
-        package_dir={'sat_sq_recon': './core/'}
+        name="sat_sq_recon",
+        version="1",
+        packages="sat_sq_recon",
+        package_dir={"sat_sq_recon": "./core/"}
     )
