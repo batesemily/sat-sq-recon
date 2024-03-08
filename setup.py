@@ -31,7 +31,7 @@ def setup_package():
 if __name__ == "__main__":
     # setup_package()
     setup(
-        # name="satsq",
+        name="satsq",
         # version="1",
         packages=['configs', 'dataset', 'nets', 'solver', 'utils'],
         package_dir={'configs': 'core',
