@@ -40,7 +40,7 @@ if __name__ == "__main__":
         #             'solver': 'core',
         #             'utils': 'core'}
         package_dir={"":"core"},
-        packages=["core"]
+        packages=["dataset"]
         # packages=(find_packages() + find_packages(where="core/nets") + find_packages(where="core/utils") ),
         # package_dir= {
         #     "":"core",
