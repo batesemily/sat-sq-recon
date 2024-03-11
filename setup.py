@@ -39,8 +39,8 @@ if __name__ == "__main__":
         #             'nets': 'core',
         #             'solver': 'core',
         #             'utils': 'core'}
-        package_dir={"configs":"core"},
-        packages=["configs"]
+        package_dir={"":"core"},
+        # packages=["configs"]
         # packages=(find_packages() + find_packages(where="core/nets") + find_packages(where="core/utils") ),
         # package_dir= {
         #     "":"core",
