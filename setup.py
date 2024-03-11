@@ -44,8 +44,8 @@ if __name__ == "__main__":
         #     "":"core",
         #     "nets":"core/nets",
         #     "utils":"core/utils"}
-        packages=find_packages(include='core/*'),
+        packages=find_packages(where="."),
         # include_package_data=True,
-        # package_dir={"":"core"}
+        package_dir={"":"core"}
         
     )
