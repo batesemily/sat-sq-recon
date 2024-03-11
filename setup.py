@@ -33,7 +33,7 @@ if __name__ == "__main__":
     setup(
         name="satsq",
         # version="1",
-        # packages=['configs', 'dataset', 'nets', 'solver', 'utils'],
+        packages=['configs', 'dataset', 'nets', 'solver', 'utils'],
         package_dir={'configs': 'core',
                     'dataset': 'core',
                     'nets': 'core',
